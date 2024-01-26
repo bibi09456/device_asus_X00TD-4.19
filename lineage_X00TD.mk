@@ -21,9 +21,9 @@ TARGET_ENABLE_BLUR := true
 TARGET_HAS_UDFPS := false
 
 # Some GMS flags
-WITH_GMS := true
-TARGET_CORE_GMS := true
-TARGET_USE_GOOGLE_TELEPHONY := false
+# WITH_GMS := true
+# TARGET_CORE_GMS := true
+# TARGET_USE_GOOGLE_TELEPHONY := false
 
 # Inherit from X00TD device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
